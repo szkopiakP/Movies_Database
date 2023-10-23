@@ -6,17 +6,15 @@ Hello! I'm **Piotrek Szkopiak** and this is my training project to improve my sk
 
 In this project I focus on _creating tables_ what can be easy join. Data of some of my favourite movies are from [Filmweb](https://www.filmweb.pl) and contains information about generals (title, category and rating), makers and staff. Primary goal is to split this data to 3 tables for better visual clarity and lower congestion of space:
 
-> - [x] Database schema:
-
->> ![Prosperity_Comparation](https://github.com/szkopiakP/Prosperity_Analysis/blob/main/Prosperity_Comparation.png?raw=True)
+> - [x] [Database Schema](https://github.com/szkopiakP/Movies_Database/blob/main/Movies_Database.sql)
 
 > - [x] Database result as 3 `.csv` limited to 10 rows:
 
->> ![Prosperity_Comparation](https://github.com/szkopiakP/Prosperity_Analysis/blob/main/Prosperity_Comparation.png?raw=True)
+>> [Movies](https://github.com/szkopiakP/Movies_Database/blob/main/Movies.csv)
 
->> ![Prosperity_Comparation](https://github.com/szkopiakP/Prosperity_Analysis/blob/main/Prosperity_Comparation.png?raw=True)
+>> [Movie_Makers](https://github.com/szkopiakP/Movies_Database/blob/main/Movie_Makers.csv)
 
->> ![Prosperity_Comparation](https://github.com/szkopiakP/Prosperity_Analysis/blob/main/Prosperity_Comparation.png?raw=True)
+>> [Movie_Staff](https://github.com/szkopiakP/Movies_Database/blob/main/Movie_Staff.csv)
    
 I use `pgAdmin 4` for `PostgreSQL`.
 
