@@ -1,6 +1,6 @@
 ## Movies_Database
 
-Hello! I'm **Piotrek Szkopiak** and this is my training project to improve my skills for data science, specially - _database design_ and _database manipulation_. I use knowledge from _Codecademy_ tutorials :man_student:
+Hello! I'm **Piotrek Szkopiak** and this is my training project to improve my skills for data science, specially - _database design_ and _database manipulation_. I use knowledge from [Codecademy](https://www.codecademy.com) tutorials :man_student:
 
 ### Overview
 
