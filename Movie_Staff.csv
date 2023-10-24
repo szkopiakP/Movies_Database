@@ -1,11 +1,11 @@
-"id","male_main","woman_main","male_supp","woman_supp"
-1,"Al Pacino","Diane Keaton","Andy Garcia","Talia Shire"
-2,"Johnny Depp","Kaya Scodelario","Javier Bardem","Golshifteh Farahani"
-3,"Harrison Ford","Kate Capshaw","Amrish Puri",NULL
-4,"Harrison Ford","Alison Doody","Sean Connery","Isla Blair"
-5,"Diego Luna","Felicity Jones","Donnie Yen","Genevieve O'Reilly"
-6,"Ewan McGregor","Natalie Portman","Hayden Christensen","Pernilla August"
-7,"Ewan McGregor","Natalie Portman","Hayden Christensen","Keisha Castle-Hughes"
-8,"Liam Neeson","Natalie Portman","Ewan McGregor","Pernilla August"
-9,"Harrison Ford","Karen Allen","Paul Freeman",NULL
-10,"Martin Freeman","Evangeline Lilly","Ian McKellen","Cate Blanchett"
+"id","male_main","woman_main","male_supp","woman_supp","movie_id"
+1,"Al Pacino","Diane Keaton","Andy Garcia","Talia Shire",1
+2,"Johnny Depp","Kaya Scodelario","Javier Bardem","Golshifteh Farahani",2
+3,"Harrison Ford","Kate Capshaw","Amrish Puri",NULL,3
+4,"Harrison Ford","Alison Doody","Sean Connery","Isla Blair",4
+5,"Diego Luna","Felicity Jones","Donnie Yen","Genevieve O'Reilly",5
+6,"Ewan McGregor","Natalie Portman","Hayden Christensen","Pernilla August",6
+7,"Ewan McGregor","Natalie Portman","Hayden Christensen","Keisha Castle-Hughes",7
+8,"Liam Neeson","Natalie Portman","Ewan McGregor","Pernilla August",8
+9,"Harrison Ford","Karen Allen","Paul Freeman",NULL,9
+10,"Martin Freeman","Evangeline Lilly","Ian McKellen","Cate Blanchett",10

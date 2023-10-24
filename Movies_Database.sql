@@ -5,7 +5,7 @@
 -- Dumped from database version 14.9
 -- Dumped by pg_dump version 15.4
 
--- Started on 2023-10-22 16:18:44 CEST
+-- Started on 2023-10-24 12:00:38 CEST
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -42,7 +42,8 @@ CREATE TABLE public.movie_makers (
     director text,
     scenario text,
     shots text,
-    music text
+    music text,
+    movie_id integer
 );
 
 
@@ -58,7 +59,8 @@ CREATE TABLE public.movie_staff (
     male_main text,
     woman_main text,
     male_supp text,
-    woman_supp text
+    woman_supp text,
+    movie_id integer
 );
 
 
@@ -119,7 +121,25 @@ ALTER TABLE ONLY public.movies
 
 
 --
--- TOC entry 3590 (class 0 OID 0)
+-- TOC entry 3446 (class 2606 OID 17023)
+-- Name: movie_makers fk_movie_id; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.movie_makers
+    ADD CONSTRAINT fk_movie_id FOREIGN KEY (movie_id) REFERENCES public.movies(id);
+
+
+--
+-- TOC entry 3447 (class 2606 OID 17028)
+-- Name: movie_staff fk_movie_id; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.movie_staff
+    ADD CONSTRAINT fk_movie_id FOREIGN KEY (movie_id) REFERENCES public.movies(id);
+
+
+--
+-- TOC entry 3592 (class 0 OID 0)
 -- Dependencies: 4
 -- Name: SCHEMA public; Type: ACL; Schema: -; Owner: postgres
 --
@@ -128,7 +148,7 @@ REVOKE USAGE ON SCHEMA public FROM PUBLIC;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
--- Completed on 2023-10-22 16:18:44 CEST
+-- Completed on 2023-10-24 12:00:38 CEST
 
 --
 -- PostgreSQL database dump complete
