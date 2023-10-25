@@ -6,7 +6,9 @@ Hello! I'm **Piotrek Szkopiak** and this is my training project to improve my sk
 
 In this project I focus on _creating tables_ what can be easy join. Data of some of my favourite movies are from [Filmweb](https://www.filmweb.pl) and contains information about generals (title, category and rating), makers and staff. Primary goal is to split this data to 3 tables for better visual clarity and lower congestion of space:
 
-> - [x] [Database Schema](https://github.com/szkopiakP/Movies_Database/blob/main/Movies_Database.sql)
+> - [x] [Movies_Database](https://github.com/szkopiakP/Movies_Database/blob/main/Movies_Database.sql)
+
+>> ![Project_Schema](https://github.com/szkopiakP/Movies_Database/blob/main/Schema.png)
 
 > - [x] Database result as 3 `.csv` limited to 10 rows:
 
