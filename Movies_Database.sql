@@ -5,7 +5,7 @@
 -- Dumped from database version 14.9
 -- Dumped by pg_dump version 15.4
 
--- Started on 2023-10-25 13:44:27 CEST
+-- Started on 2023-10-26 10:28:54 CEST
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -101,25 +101,7 @@ ALTER TABLE ONLY public.movies
 
 
 --
--- TOC entry 3443 (class 2606 OID 17065)
--- Name: movie_makers unique2_movie_id; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.movie_makers
-    ADD CONSTRAINT unique2_movie_id UNIQUE (movie_id);
-
-
---
--- TOC entry 3445 (class 2606 OID 17056)
--- Name: movie_staff unique_movie_id; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.movie_staff
-    ADD CONSTRAINT unique_movie_id UNIQUE (movie_id);
-
-
---
--- TOC entry 3447 (class 2606 OID 17050)
+-- TOC entry 3443 (class 2606 OID 17050)
 -- Name: movie_staff fkey_movie_id; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -128,7 +110,7 @@ ALTER TABLE ONLY public.movie_staff
 
 
 --
--- TOC entry 3446 (class 2606 OID 17057)
+-- TOC entry 3442 (class 2606 OID 17057)
 -- Name: movie_makers fkey_movie_id; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
@@ -137,7 +119,7 @@ ALTER TABLE ONLY public.movie_makers
 
 
 --
--- TOC entry 3592 (class 0 OID 0)
+-- TOC entry 3588 (class 0 OID 0)
 -- Dependencies: 4
 -- Name: SCHEMA public; Type: ACL; Schema: -; Owner: postgres
 --
@@ -146,7 +128,7 @@ REVOKE USAGE ON SCHEMA public FROM PUBLIC;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
--- Completed on 2023-10-25 13:44:27 CEST
+-- Completed on 2023-10-26 10:28:55 CEST
 
 --
 -- PostgreSQL database dump complete
